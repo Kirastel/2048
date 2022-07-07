@@ -3,9 +3,8 @@ import pygame
 from logics import *
 from database import get_best, cur, insert_result
 
+
 GAMERS_DB = get_best()
-
-
 
 COLORS = {
     0: (130, 130, 130),
@@ -68,7 +67,6 @@ def init_const():
     mas = insert_2_or_2(mas, x1, y1)
     mas = insert_2_or_2(mas, x2, y2)
     score = 0
-
 
 
 def draw_interface(score):
@@ -190,6 +188,3 @@ while True:
         draw_intro()
     main()
     draw_GameOver()
-
-# if __name__ == '__main__':
-#     main()
