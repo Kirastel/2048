@@ -92,7 +92,7 @@ def draw_interface(score):
 
 
 def draw_intro():
-    start_img = pygame.image.load('unnamed.png')
+    start_img = pygame.image.load('game.png')
     font_start = pygame.font.SysFont('stxingkai', 40)
     welcome_message = 'Добро пожаловать в игру 2048'
     text_start = font_start.render(welcome_message, True, WHITE)
